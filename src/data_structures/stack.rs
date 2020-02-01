@@ -65,3 +65,4 @@ fn main() {
     assert_eq!(s.pop(), Some(&a));
     assert_eq!(s.pop(), None);
 }
+
