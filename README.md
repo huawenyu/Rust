@@ -1,8 +1,24 @@
-# The Algorithms - Rust [![Gitter](https://img.shields.io/gitter/room/the-algorithms/rust.svg?style=flat-square)](https://gitter.im/the-algorithms/rust) [![Build Status](https://travis-ci.org/TheAlgorithms/Rust.svg?branch=master)](https://travis-ci.org/TheAlgorithms/Rust)
+# The Algorithms - Rust
 
-### All algorithms implemented in Rust (for educational purposes)
+[![Gitter](https://img.shields.io/gitter/room/the-algorithms/rust.svg?style=flat-square)](https://gitter.im/the-algorithms/rust)
+[![Build Status](https://travis-ci.org/TheAlgorithms/Rust.svg?branch=master)](https://travis-ci.org/TheAlgorithms/Rust)
 
+All algorithms implemented in Rust (for educational purposes)
 These are for demonstration purposes only.
+
+## Howto start a new subject like 'list'
+
+> cargo new --lib list
+> cd list
+> mkdir src; cd src;
+
+> touch list1.rs
+> echo "pub mod list1;" > lib.rs
+
+> cargo build
+
+### Add test mod
+
 
 ## [Sort Algorithms](./src/sorting)
 
