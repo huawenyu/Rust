@@ -49,6 +49,8 @@ impl Drop for List {
     }
 }
 
+// To appease the compiler (and to be friendly to our consumers),
+// we should indicate that the whole test module should only be compiled if we're running tests.
 #[cfg(test)]
 mod test {
     use super::List;
